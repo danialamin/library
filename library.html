@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Library</title>
+    <link rel="stylesheet" href="./library.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <h1>library</h1>
+      <a href="#">log in</a>
+    </header>
+
+    <div class="but">
+      <button id="btn" onclick="popup()">+ Add book</button>
+    </div>
+
+
+    <div class="main">
+  
+    </div>
+
+    <div class="button_pressed_body">
+      <div class="button_pressed_container">
+        <a onclick="popdown()">&times;</a> <!-- &times; is equal to the cross symbol -->
+        <h2>Add new book</h2>
+        <form action="">
+          <input type="text" placeholder="Title" required />
+          <input type="text" placeholder="Author" required />
+          <input type="number" placeholder="Pages" required step="1" />
+
+          <p>Have you read it?</p>
+          <input type="checkbox" />
+          <input type="submit">Submit</input>
+        </form>
+      </div>
+    </div>
+  </body>
+
+<script src="./library.js"></script>
+</html>
